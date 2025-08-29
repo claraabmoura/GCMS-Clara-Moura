@@ -15,4 +15,9 @@ public class HomeController {
 	 public @ResponseBody String testing() { 
 	  return "Estou fazendo um teste"; 
 	 }
+	@RequestMapping("/original")
+	public @ResponseBody String fromOriginalCopy() {
+	    return "Essa alteração veio da cópia original!";
+	}
+
 }
