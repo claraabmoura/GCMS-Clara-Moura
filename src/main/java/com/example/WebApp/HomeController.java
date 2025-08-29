@@ -15,4 +15,9 @@ public class HomeController {
 	 public @ResponseBody String testing() { 
 	  return "Estou fazendo um teste"; 
 	 }
+    @RequestMapping("/paralelo")
+    public @ResponseBody String paralelo() {
+        return "Trabalhando em paralelo!";
+    }
+
 }
