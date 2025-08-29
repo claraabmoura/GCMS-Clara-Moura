@@ -41,5 +41,4 @@ class WebAppApplicationTests {
          .andExpect(status().isOk())
          .andExpect(content().string(containsString("Criando hotfix!")));
  }
- 
 } 
