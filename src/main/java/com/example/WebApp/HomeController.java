@@ -19,5 +19,8 @@ public class HomeController {
 	public @ResponseBody String fromOriginalCopy() {
 	    return "Essa alteração veio da cópia original!";
 	}
-
+    @RequestMapping("/paralelo")
+    public @ResponseBody String paralelo() {
+        return "Trabalhando em paralelo!";
+    }
 }
